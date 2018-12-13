@@ -1,0 +1,3 @@
+Host 
+  UserKnownHostsFile devnull 
+  StrictHostKeyChecking no
