@@ -1,5 +1,5 @@
 docker build -t my-hadoop .
-docker run -p 8088:8088 --name my-hadoop-container -d my-hadoop
+docker run -p 8088:8088 -p  50030:50030 -p 50060:50060 -p 50070:50070 -p 50075:50075 --name my-hadoop-container -d my-hadoop
 
 
 
